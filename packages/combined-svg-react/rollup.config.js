@@ -1,7 +1,7 @@
 import dts from "rollup-plugin-dts";
 import esbuild from "rollup-plugin-esbuild";
 
-const name = "index";
+const name = "./dist/index";
 
 const bundle = (config) => ({
   ...config,
