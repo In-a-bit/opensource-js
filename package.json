@@ -25,5 +25,8 @@
   "packageManager": "pnpm@7.18.1",
   "lint-staged": {
     "*.{ts,tsx,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.25.2"
   }
 }
