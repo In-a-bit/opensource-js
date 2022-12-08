@@ -17,7 +17,7 @@
     "build": "rm -rf ./dist && rollup -c",
     "start": "rollup -c -w",
     "build-with-deps": "pnpm run -w turbo run build --filter=@inabit/combined-svg-react...",
-    "test": "echo \"no tests\" && exit 1",
+    "test": "echo \"no tests\" && exit 0",
     "release": "pnpm run build-with-deps && pnpm publish"
   },
   "keywords": [
