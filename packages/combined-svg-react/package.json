@@ -18,7 +18,7 @@
     "start": "rollup -c -w",
     "build-with-deps": "pnpm run -w turbo run build --filter=@inabit/combined-svg-react...",
     "test": "echo \"no tests\" && exit 1",
-    "release": "pnpm run build-with-deps"
+    "release": "pnpm run build-with-deps && pnpm publish"
   },
   "keywords": [
     "vite",
