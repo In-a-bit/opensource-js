@@ -1,5 +1,5 @@
 ---
-"@inabit/combined-svgr": patch
+"@inabit/combined-svg-react": patch
 ---
 
 update for testing
