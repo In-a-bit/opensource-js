@@ -15,7 +15,27 @@ importers:
       prettier: 2.8.1
       turbo: 1.6.3
 
-  packages/combined-svg-react:
+  packages/eslint-config-custom:
+    specifiers:
+      eslint: ^8.0.0
+      eslint-config-next: 13.0.6
+      eslint-config-prettier: ^8.3.0
+      eslint-config-turbo: latest
+      eslint-plugin-react: 7.31.11
+      typescript: ^4.7.4
+    dependencies:
+      eslint: 8.28.0
+      eslint-config-next: 13.0.6_hsf322ms6xhhd4b5ne6lb74y4a
+      eslint-config-prettier: 8.5.0_eslint@8.28.0
+      eslint-config-turbo: 0.0.7_eslint@8.28.0
+      eslint-plugin-react: 7.31.11_eslint@8.28.0
+    devDependencies:
+      typescript: 4.9.3
+
+  packages/tsconfig:
+    specifiers: {}
+
+  packages/vite-plugin-combined-svg-react:
     specifiers:
       '@tsconfig/recommended': ^1.0.1
       '@types/node': 18.11.11
@@ -36,26 +56,6 @@ importers:
       rollup-plugin-dts: 4.2.2_og7fvmhpooyscawmgb4pmvicxq
       rollup-plugin-esbuild: 4.9.3_pi2ua223zwphnacn3jikamv5lq
       typescript: 4.9.4
-
-  packages/eslint-config-custom:
-    specifiers:
-      eslint: ^8.0.0
-      eslint-config-next: 13.0.6
-      eslint-config-prettier: ^8.3.0
-      eslint-config-turbo: latest
-      eslint-plugin-react: 7.31.11
-      typescript: ^4.7.4
-    dependencies:
-      eslint: 8.28.0
-      eslint-config-next: 13.0.6_hsf322ms6xhhd4b5ne6lb74y4a
-      eslint-config-prettier: 8.5.0_eslint@8.28.0
-      eslint-config-turbo: 0.0.7_eslint@8.28.0
-      eslint-plugin-react: 7.31.11_eslint@8.28.0
-    devDependencies:
-      typescript: 4.9.3
-
-  packages/tsconfig:
-    specifiers: {}
 
 packages:
 
