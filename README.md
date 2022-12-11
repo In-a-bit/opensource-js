@@ -1,6 +1,4 @@
-# Combined Svg React - Vite Plugin
-
-** ALPHA STAGE **
+# Inabit Open Source Javascript Projects
 
 This is a monorepo for the combined svg react vite plugin.
 
