@@ -1,5 +1,11 @@
 # @inabit/combined-svg-react
 
+## 0.0.5
+
+### Patch Changes
+
+- 365ef4c: for testing
+
 ## 0.0.4
 
 ### Patch Changes
