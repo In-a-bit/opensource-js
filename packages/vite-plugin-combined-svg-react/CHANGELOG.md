@@ -1,5 +1,11 @@
 # @inabit/combined-svg-react
 
+## 0.0.6
+
+### Patch Changes
+
+- 5ac2b51: change package name
+
 ## 0.0.5
 
 ### Patch Changes
