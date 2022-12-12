@@ -1,4 +1,4 @@
-# Combine Svg React - Vite Plugin
+# Combined Svg React - Vite Plugin
 
 ** ALPHA STAGE **
 
