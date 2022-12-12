@@ -1,6 +1,6 @@
 # Inabit Open Source Javascript Projects
 
-This is a monorepo for the combined svg react vite plugin.
+This is a monorepo Inabit opensource related projects.
 
 ## Development
 
