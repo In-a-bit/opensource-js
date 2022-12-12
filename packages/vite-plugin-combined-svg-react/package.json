@@ -2,6 +2,7 @@
   "name": "@inabit/vite-plugin-combined-svg-react",
   "version": "0.0.6",
   "description": "A Vite plugin for loading multiple svg files in a directory and combine then to one React component",
+  "types": "./dist/index.d.ts",
   "exports": {
     "import": {
       "default": "./dist/index.mjs",

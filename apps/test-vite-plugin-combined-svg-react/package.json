@@ -1,0 +1,16 @@
+{
+  "name": "test-vite-plugin-combined-svg-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@inabit/vite-plugin-combined-svg-react": "workspace:^0.0.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}

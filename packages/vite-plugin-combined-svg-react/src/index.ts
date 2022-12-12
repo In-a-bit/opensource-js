@@ -1,1 +1,3 @@
-export const j = 4;
+export function combinedSvgReact() {
+  return null;
+}
