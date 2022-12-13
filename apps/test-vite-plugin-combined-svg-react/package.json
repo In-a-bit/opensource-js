@@ -1,7 +1,7 @@
 {
   "name": "test-vite-plugin-combined-svg-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
-    "@inabit/vite-plugin-combined-svg-react": "workspace:^0.0.6",
+    "@inabit/vite-plugin-combined-svg-react": "workspace:^1.0.0",
     "@types/react": "18.0.0",
     "@types/react-test-renderer": "^18.0.0",
     "@vitejs/plugin-react": "^3.0.0",
