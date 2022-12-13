@@ -1,8 +1,7 @@
-import React from "react";
-import { assert, expect, test } from "vitest";
+import { expect, test } from "vitest";
 import {
   ReactComponent as Icon,
-  EnumStruct as IconType,
+  // @ts-ignore
 } from "./assets?svg-list-to-switcher";
 import renderer from "react-test-renderer";
 // Edit an assertion and save to see HMR in action
