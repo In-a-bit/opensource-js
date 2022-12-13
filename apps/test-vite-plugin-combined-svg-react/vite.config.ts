@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
-import { combinedSvgReact } from "@inabit/vite-plugin-combined-svg-react";
+import react from "@vitejs/plugin-react";
+import combinedSvgReact from "@inabit/vite-plugin-combined-svg-react";
+import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
-  plugins: [combinedSvgReact()],
+  plugins: [svgr(), react(), combinedSvgReact()],
 });

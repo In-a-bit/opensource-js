@@ -46,5 +46,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "vite": "^4.0.0"
   }
 }
