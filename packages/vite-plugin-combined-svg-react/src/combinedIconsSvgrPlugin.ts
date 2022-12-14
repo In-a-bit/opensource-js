@@ -4,14 +4,17 @@ import { generateCombinedIconsComponentCode } from "./generateCombinedIconsCompo
 import * as path from "path";
 import { extractFileName } from "./extractFileName";
 
+const PLUGIN_NAME = "combined-svg-react";
+const PLUGIN_LOADER_MARK = "combined-svg-react";
+
 export function combinedIconsSvgrPlugin(): Plugin {
   return {
-    name: "svg-list-to-switcher",
+    name: PLUGIN_NAME,
     resolveId(source: string) {
       if (isPluginFolder(source)) {
         let newSource =
           path.resolve(".") +
-          `${path.sep}src${path.sep}assets.tsx?svg-list-to-switcher`;
+          `${path.sep}src${path.sep}assets.tsx?${PLUGIN_LOADER_MARK}`;
         return newSource;
       }
 
@@ -36,6 +39,6 @@ export function combinedIconsSvgrPlugin(): Plugin {
 }
 
 function isPluginFolder(id: string) {
-  const regex = new RegExp("\\?svg-list-to-switcher$");
+  const regex = new RegExp(`\\?${PLUGIN_LOADER_MARK}$`);
   return regex.test(id);
 }
