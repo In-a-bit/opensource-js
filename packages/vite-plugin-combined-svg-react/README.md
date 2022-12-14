@@ -26,13 +26,15 @@ export default defineConfig({
 });
 ```
 
-In the code you need to import the folder as a component like in the following example.
+In order to mark and notify Vite that an import of a folder should use the plugin, you need to add the plugin loader marker - `combined-svg-react` - at the and of the loading path with `?` delimiter.
+
+Then the import exposes a variable `ReactComponent` that is the combined svg react components, and `EnumStruct` that is an enum map which consists of the svg files names.
 
 ```js
 import {
   ReactComponent as Icon,
   EnumStruct as IconType,
-} from "./assets?svg-list-to-switcher";
+} from "./assets?combined-svg-react";
 
 export function MyComponent() {
   return <Icon iconName="UKR" />;
