@@ -15,7 +15,7 @@
     "prepare": "husky install",
     "turbo": "turbo",
     "publish-all": "pnpm build && pnpm changeset publish",
-    "update-version": "changeset version && pnpm install"
+    "update-version": "changeset version && pnpm install --no-frozen-lockfile"
   },
   "devDependencies": {
     "husky": "8.0.2",
