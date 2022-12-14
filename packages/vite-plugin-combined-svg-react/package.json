@@ -28,6 +28,7 @@
   ],
   "author": "",
   "license": "MIT",
+  "homepage": "https://github.com/In-a-bit/opensource-js/tree/main/packages/vite-plugin-combined-svg-react",
   "repository": {
     "type": "git",
     "url": "https://github.com/In-a-bit/opensource-js.git",
