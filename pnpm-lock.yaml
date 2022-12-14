@@ -18,7 +18,7 @@ importers:
   apps/test-vite-plugin-combined-svg-react:
     specifiers:
       '@babel/core': ^7.20.5
-      '@inabit/vite-plugin-combined-svg-react': workspace:^1.0.0
+      '@inabit/vite-plugin-combined-svg-react': workspace:^2.0.0
       '@types/react': 18.0.0
       '@types/react-test-renderer': ^18.0.0
       '@vitejs/plugin-react': ^3.0.0
