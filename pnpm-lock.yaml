@@ -69,7 +69,7 @@ importers:
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.6
       esbuild: 0.16.2
-      rollup: 2.78.1
+      rollup: 2.79.1
       rollup-plugin-dts: 4.2.3
       rollup-plugin-esbuild: 4.9.3
       typescript: 4.9.4
@@ -82,9 +82,9 @@ importers:
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.6
       esbuild: 0.16.2
-      rollup: 2.78.1
-      rollup-plugin-dts: 4.2.3_og7fvmhpooyscawmgb4pmvicxq
-      rollup-plugin-esbuild: 4.9.3_pi2ua223zwphnacn3jikamv5lq
+      rollup: 2.79.1
+      rollup-plugin-dts: 4.2.3_ntuob3xud5wukob6phfmz2mbyy
+      rollup-plugin-esbuild: 4.9.3_kxr22sysqd2nrcnnumzsyc7xym
       typescript: 4.9.4
 
 packages:
@@ -3457,7 +3457,7 @@ packages:
       glob: 7.2.3
     dev: false
 
-  /rollup-plugin-dts/4.2.3_og7fvmhpooyscawmgb4pmvicxq:
+  /rollup-plugin-dts/4.2.3_ntuob3xud5wukob6phfmz2mbyy:
     resolution: {integrity: sha512-jlcpItqM2efqfIiKzDB/IKOS9E9fDvbkJSGw5GtK/PqPGS9eC3R3JKyw2VvpTktZA+TNgJRMu1NTv244aTUzzQ==}
     engines: {node: '>=v12.22.12'}
     peerDependencies:
@@ -3465,13 +3465,13 @@ packages:
       typescript: ^4.1
     dependencies:
       magic-string: 0.26.7
-      rollup: 2.78.1
+      rollup: 2.79.1
       typescript: 4.9.4
     optionalDependencies:
       '@babel/code-frame': 7.18.6
     dev: true
 
-  /rollup-plugin-esbuild/4.9.3_pi2ua223zwphnacn3jikamv5lq:
+  /rollup-plugin-esbuild/4.9.3_kxr22sysqd2nrcnnumzsyc7xym:
     resolution: {integrity: sha512-bxfUNYTa9Tw/4kdFfT9gtidDtqXyRdCW11ctZM7D8houCCVqp5qHzQF7hhIr31rqMA0APbG47fgVbbCGXgM49Q==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -3484,13 +3484,13 @@ packages:
       esbuild: 0.16.2
       joycon: 3.1.1
       jsonc-parser: 3.2.0
-      rollup: 2.78.1
+      rollup: 2.79.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /rollup/2.78.1:
-    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
+  /rollup/2.79.1:
+    resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
