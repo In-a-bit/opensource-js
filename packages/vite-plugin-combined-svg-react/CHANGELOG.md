@@ -1,5 +1,11 @@
 # @inabit/combined-svg-react
 
+## 2.0.1
+
+### Patch Changes
+
+- 1621587: update package.json docs
+
 ## 2.0.0
 
 ### Major Changes
