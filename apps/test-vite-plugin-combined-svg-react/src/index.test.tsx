@@ -5,9 +5,10 @@ import renderer from "react-test-renderer";
 test("draw correct component html", async () => {
   const {
     ReactComponent: Icon,
+    EnumStruct: IconType,
     // @ts-ignore
   } = await import("./assets?combined-svg-react");
-  const component = renderer.create(<Icon iconName="UKR" />);
+  const component = renderer.create(<Icon iconName={IconType.UKR} />);
 
   expect(component).toMatchSnapshot();
 });

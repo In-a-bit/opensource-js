@@ -37,6 +37,6 @@ import {
 } from "./assets?combined-svg-react";
 
 export function MyComponent() {
-  return <Icon iconName="UKR" />;
+  return <Icon iconName={IconType.UKR} />;
 }
 ```
