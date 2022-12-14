@@ -14,7 +14,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
     "turbo": "turbo",
-    "publish-all": "pnpm build && pnpm changeset publish"
+    "publish-all": "pnpm build && pnpm changeset publish",
+    "update-version": "changeset version && pnpm install"
   },
   "devDependencies": {
     "husky": "8.0.2",
