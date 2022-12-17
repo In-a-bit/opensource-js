@@ -66,7 +66,7 @@ importers:
     specifiers:
       '@rollup/plugin-typescript': 10.0.1
       '@tsconfig/recommended': 1.0.1
-      '@types/node': 18.11.15
+      '@types/node': 18.11.17
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.6
       esbuild: 0.16.7
@@ -77,11 +77,11 @@ importers:
       typescript: 4.9.4
       vite: ^4.0.0
     dependencies:
-      vite: 4.0.0_@types+node@18.11.15
+      vite: 4.0.0_@types+node@18.11.17
     devDependencies:
       '@rollup/plugin-typescript': 10.0.1_ksuudmkloucy44p3irodiuckje
       '@tsconfig/recommended': 1.0.1
-      '@types/node': 18.11.15
+      '@types/node': 18.11.17
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.6
       esbuild: 0.16.7
@@ -1232,8 +1232,8 @@ packages:
     resolution: {integrity: sha512-KJ021B1nlQUBLopzZmPBVuGU9un7WJd/W4ya7Ih02B4Uwky5Nja0yGYav2EfYIk0RR2Q9oVhf60S2XR1BCWJ2g==}
     dev: true
 
-  /@types/node/18.11.15:
-    resolution: {integrity: sha512-VkhBbVo2+2oozlkdHXLrb3zjsRkpdnaU2bXmX8Wgle3PUi569eLRaHGlgETQHR7lLL1w7GiG3h9SnePhxNDecw==}
+  /@types/node/18.11.17:
+    resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -4114,7 +4114,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.0_@types+node@18.11.15:
+  /vite/4.0.0_@types+node@18.11.17:
     resolution: {integrity: sha512-ynad+4kYs8Jcnn8J7SacS9vAbk7eMy0xWg6E7bAhS1s79TK+D7tVFGXVZ55S7RNLRROU1rxoKlvZ/qjaB41DGA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4139,7 +4139,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.15
+      '@types/node': 18.11.17
       esbuild: 0.16.4
       postcss: 8.4.20
       resolve: 1.22.1
