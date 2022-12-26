@@ -66,7 +66,7 @@ importers:
     specifiers:
       '@rollup/plugin-typescript': 10.0.1
       '@tsconfig/recommended': 1.0.1
-      '@types/node': 18.11.17
+      '@types/node': 18.11.18
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.6
       esbuild: 0.16.10
@@ -77,11 +77,11 @@ importers:
       typescript: 4.9.4
       vite: ^4.0.0
     dependencies:
-      vite: 4.0.0_@types+node@18.11.17
+      vite: 4.0.0_@types+node@18.11.18
     devDependencies:
       '@rollup/plugin-typescript': 10.0.1_lm43bqmazlmc7bh6tmgin6rwzu
       '@tsconfig/recommended': 1.0.1
-      '@types/node': 18.11.17
+      '@types/node': 18.11.18
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.6
       esbuild: 0.16.10
@@ -1230,6 +1230,10 @@ packages:
 
   /@types/node/18.11.17:
     resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
+    dev: true
+
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -4169,6 +4173,41 @@ packages:
       rollup: 3.7.3
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /vite/4.0.0_@types+node@18.11.18:
+    resolution: {integrity: sha512-ynad+4kYs8Jcnn8J7SacS9vAbk7eMy0xWg6E7bAhS1s79TK+D7tVFGXVZ55S7RNLRROU1rxoKlvZ/qjaB41DGA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 18.11.18
+      esbuild: 0.16.4
+      postcss: 8.4.20
+      resolve: 1.22.1
+      rollup: 3.7.3
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: false
 
   /vitest/0.26.0:
     resolution: {integrity: sha512-5kUnms5WOa0qrDCJePEPB13v9mhr+ZT1Qy0qNg0eVj1X7/Fx4GY4L1e5s3OH+BQ/J7M5WtaKsUGv9l1pbC7v2Q==}
