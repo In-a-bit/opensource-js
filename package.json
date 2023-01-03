@@ -18,7 +18,7 @@
     "update-version": "changeset version && pnpm install --no-frozen-lockfile"
   },
   "devDependencies": {
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "prettier": "2.8.1",
     "turbo": "latest"
   },
