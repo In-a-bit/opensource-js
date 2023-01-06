@@ -64,7 +64,7 @@ importers:
 
   packages/vite-plugin-combined-svg-react:
     specifiers:
-      '@rollup/plugin-typescript': 10.0.1
+      '@rollup/plugin-typescript': 11.0.0
       '@tsconfig/recommended': 1.0.1
       '@types/node': 18.11.17
       '@types/react': 18.0.0
@@ -79,7 +79,7 @@ importers:
     dependencies:
       vite: 4.0.0_@types+node@18.11.17
     devDependencies:
-      '@rollup/plugin-typescript': 10.0.1_lm43bqmazlmc7bh6tmgin6rwzu
+      '@rollup/plugin-typescript': 11.0.0_lm43bqmazlmc7bh6tmgin6rwzu
       '@tsconfig/recommended': 1.0.1
       '@types/node': 18.11.17
       '@types/react': 18.0.0
@@ -1022,8 +1022,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@rollup/plugin-typescript/10.0.1_lm43bqmazlmc7bh6tmgin6rwzu:
-    resolution: {integrity: sha512-wBykxRLlX7EzL8BmUqMqk5zpx2onnmRMSw/l9M1sVfkJvdwfxogZQVNUM9gVMJbjRLDR5H6U0OMOrlDGmIV45A==}
+  /@rollup/plugin-typescript/11.0.0_lm43bqmazlmc7bh6tmgin6rwzu:
+    resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
