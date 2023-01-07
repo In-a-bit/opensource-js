@@ -6,13 +6,13 @@ importers:
     specifiers:
       '@changesets/cli': ^2.25.2
       husky: 8.0.2
-      prettier: 2.8.1
+      prettier: 2.8.2
       turbo: latest
     dependencies:
       '@changesets/cli': 2.25.2
     devDependencies:
       husky: 8.0.2
-      prettier: 2.8.1
+      prettier: 2.8.2
       turbo: 1.6.3
 
   apps/test-vite-plugin-combined-svg-react:
@@ -344,7 +344,7 @@ packages:
       fs-extra: 7.0.1
       lodash.startcase: 4.4.0
       outdent: 0.5.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       resolve-from: 5.0.0
       semver: 5.7.1
     dev: false
@@ -511,7 +511,7 @@ packages:
       '@changesets/types': 5.2.0
       fs-extra: 7.0.1
       human-id: 1.0.2
-      prettier: 2.8.1
+      prettier: 2.8.2
     dev: false
 
   /@esbuild/android-arm/0.16.10:
@@ -3344,8 +3344,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: false
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
 
