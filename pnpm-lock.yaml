@@ -71,7 +71,7 @@ importers:
       '@types/react-dom': 18.0.6
       esbuild: 0.16.10
       rollup: 3.7.5
-      rollup-plugin-dts: 5.0.0
+      rollup-plugin-dts: 5.1.1
       rollup-plugin-esbuild: 5.0.0
       tslib: 2.4.1
       typescript: 4.9.4
@@ -86,7 +86,7 @@ importers:
       '@types/react-dom': 18.0.6
       esbuild: 0.16.10
       rollup: 3.7.5
-      rollup-plugin-dts: 5.0.0_oj4jlwi3mkekxo3vucumcwebnq
+      rollup-plugin-dts: 5.1.1_oj4jlwi3mkekxo3vucumcwebnq
       rollup-plugin-esbuild: 5.0.0_wzqc5fpdsdncvbpcjrdwzvk52i
       tslib: 2.4.1
       typescript: 4.9.4
@@ -2982,13 +2982,6 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /magic-string/0.26.7:
-    resolution: {integrity: sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==}
-    engines: {node: '>=12'}
-    dependencies:
-      sourcemap-codec: 1.4.8
-    dev: true
-
   /magic-string/0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
     engines: {node: '>=12'}
@@ -3517,14 +3510,14 @@ packages:
       glob: 7.2.3
     dev: false
 
-  /rollup-plugin-dts/5.0.0_oj4jlwi3mkekxo3vucumcwebnq:
-    resolution: {integrity: sha512-OO8ayCvuJCKaQSShyVTARxGurVVk4ulzbuvz+0zFd1f93vlnWFU5pBMT7HFeS6uj7MvvZLx4kUAarGATSU1+Ng==}
+  /rollup-plugin-dts/5.1.1_oj4jlwi3mkekxo3vucumcwebnq:
+    resolution: {integrity: sha512-zpgo52XmnLg8w4k3MScinFHZK1+ro6r7uVe34fJ0Ee8AM45FvgvTuvfWWaRgIpA4pQ1BHJuu2ospncZhkcJVeA==}
     engines: {node: '>=v14'}
     peerDependencies:
       rollup: ^3.0.0
       typescript: ^4.1
     dependencies:
-      magic-string: 0.26.7
+      magic-string: 0.27.0
       rollup: 3.7.5
       typescript: 4.9.4
     optionalDependencies:
@@ -3682,11 +3675,6 @@ packages:
   /source-map/0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /sourcemap-codec/1.4.8:
-    resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
-    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /spawndamnit/2.0.0:
