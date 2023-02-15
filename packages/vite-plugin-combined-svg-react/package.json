@@ -39,7 +39,7 @@
     "@tsconfig/recommended": "1.0.1",
     "@types/node": "18.11.17",
     "@types/react": "18.0.0",
-    "@types/react-dom": "18.0.6",
+    "@types/react-dom": "18.0.11",
     "esbuild": "0.16.10",
     "rollup": "3.7.5",
     "rollup-plugin-dts": "5.0.0",
